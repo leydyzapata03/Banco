@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+.full-background:before {
+	background: #979594;
+	   background: -moz-linear-gradient(top, #FB404B 0%, rgba(187, 5, 2, 0.6) 100%);
+	   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FB404B), color-stop(100%, rgba(187, 5, 2, 0.6)));
+	   background: -webkit-linear-gradient(top, #FB404B 0%, rgba(187, 5, 2, 0.6) 100%);
+	   background: -o-linear-gradient(top, #FB404B 0%, rgba(187, 5, 2, 0.6) 100%);
+	   background: -ms-linear-gradient(top, #FB404B 0%, rgba(187, 5, 2, 0.6) 100%);
+	   background: linear-gradient(to bottom, #FB404B 0%, rgba(187, 5, 2, 0.6) 100%);
+	   background-size: 150% 150%;
+}
+.full-background:after, .full-background:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.full-background:after, .full-background:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.login-page > .content, .lock-page > .content {
+    padding-top: 18vh;
+}
+.full-background > .content {
+    min-height: calc(100vh - 70px);
+}
+.full-background > .content, .full-background > .footer {
+    position: relative;
+    z-index: 4;
+}
+.login-page .card {
+    box-shadow: 0 25px 30px -13px rgba(40, 40, 40, 0.4);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.card {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.login-page .card .head {
+    padding-bottom: 15px;
+}
+.card .head {
+    padding: 15px 15px 0px;
+    color: #333333;
+    font-weight: 300;
+    font-size: 22px;
+}
+.card .content {
+    padding: 15px;
+}
+.login-page .card .btn-wd {
+    min-width: 180px;
+    min-height: 40px;
+}
+#btnLogin.btn-fill {
+	color: #FFFFFF;
+	border-radius: 25px;
+	background: #AFDCF9;
+	/*background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+	background: linear-gradient(to right, #feb47b, #ff7e5f);*/
+
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
